@@ -1,24 +1,66 @@
-title: IT-блог
-description: > # this means to ignore newlines until "baseurl:"
-  Blog with theme Future Imperfect<br>
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://soojungson.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+# Configurations
+title:            Jekyll Gitbook
+longtitle:        Jekyll Gitbook
+author:           HE Tao
+email:            sjson@sch.AC.KR
+description: >
+  Build Jekyll site with the GitBook style.
 
+version:          1.0
+gitbook_version:  3.2.3
 
-author:
-  name: 'Soojung'
-  last_name: 'Son'
-  cv: '//kaptn.ru'
-  avatar: '/images/avatar.jpeg'
-  github_username:  soojungson  
-  email: sjson@sch.ac.kr
-  vk_id: 
-  telegram_name:  
-  logo: '/images/logo.svg'
+url:              'https://soojungson.github.io'
+baseurl:          '/jekyll-gitbook'
+rss:              RSS
 
-# Build settings
-markdown: kramdown
+# bootstrap: use the remote theme for the site itself
+remote_theme: sighingnow/jekyll-gitbook
 
-permalink: /:categories/:year/:title.html
+toc:
+  enabled: true
+  h_min: 1
+  h_max: 3
 
+# customize the link favicon in header, will be {{site.baseurl}}/{{site.favicon_path}}
+favicon_path:     /assets/gitbook/images/favicon.ico
 
+# markdown render engine.
+markdown:         kramdown
+kramdown:
+  auto_ids:               true
+  input:                  GFM
+  math_engine:            mathjax
+  smart_quotes:           lsquo,rsquo,ldquo,rdquo
+  toc_levels:             1..6
+  syntax_highlighter:     rouge
+  syntax_highlighter_opts:
+    guess_lang:           true
+
+syntax_highlighter_style: colorful
+
+markdown_ext:             markdown,mkdown,mkdn,mkd,md
+
+# Permalinks
+permalink:                /:categories/:year-:month-:day-:title:output_ext
+
+# Disqus comments
+# disqushandler:            sighingnow
+
+exclude:
+  - _drafts
+
+collections:
+  pages:
+    output: true
+    permalink: /:collection/:path/
+
+page_width: 800px
+
+destination:      ./_site
+incremental:      false
+regenerate:       true
+
+plugins:
+  - jekyll-feed
+  - jekyll-readme-index
+  - jemoji
