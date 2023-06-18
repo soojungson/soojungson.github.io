@@ -2,7 +2,7 @@
 title:            Jekyll Gitbook
 longtitle:        Jekyll Gitbook
 author:           HE Tao
-email:            sjson@sch.AC.KR
+email:            sighingnow@gmail.com
 description: >
   Build Jekyll site with the GitBook style.
 
@@ -10,7 +10,7 @@ version:          1.0
 gitbook_version:  3.2.3
 
 url:              'https://soojungson.github.io'
-# baseurl:          '/jekyll-gitbook'
+baseurl:          
 rss:              RSS
 
 # bootstrap: use the remote theme for the site itself
