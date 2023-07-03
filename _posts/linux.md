@@ -1,0 +1,64 @@
+---
+title: Linux
+author: sjson
+date: 2023-08-10
+category: Jekyll
+layout: post
+---
+
+
+
+Anydesk deb 패키지 Linux 설치
+-------------
+
+anydesk 다운로드 안내 홈페이지
+
+https://anydesk.com/en/downloads/linux
+
+
+
+### Anydesk DEB 패키지 설치 방법
+
+deb 파일은 debian 기반 소프트웨어 패키지 형식. ubuntu리눅스에서 소프트웨어를 설치할때 사용됨. 
+
+anydesk 설치 방법 : http://deb.anydesk.com/howto.html
+
+root 유저로 실행
+
+1. 신뢰할수 있는 소프트웨어 공급자 목록에 저장소 키 추가
+
+   ```
+   wget -qO - https://keys.anydesk.com/repos/DEB-GPG-KEY | apt-key add -
+   ```
+
+   wget : Web Get의 약어. 웹에 있는 파일을 다운로드
+
+   apt-key : 패키지를 인증하기 위한 키 목록을 관리. 키로 인증되어야 패키지를 신뢰할 수 있음. [apt-key 관련 명령 사용법](https://weftnwarp.kr/site-it/archives/%EC%9A%B0%EB%B6%84%ED%88%ACubuntu-%ED%8C%A8%ED%82%A4%EC%A7%80-%EA%B4%80%EB%A6%AC-apt-key-%EB%AA%85%EB%A0%B9-%EC%82%AC%EC%9A%A9%EB%B2%95/)
+
+   
+
+2. 저장소 추가
+
+   ```
+   echo "deb http://deb.anydesk.com/ all main" > /etc/apt/sources.list.d/anydesk-stable.list
+   ```
+
+   
+
+3. apt cache 업데이트
+
+   ```
+   apt update
+   ```
+
+   
+
+4. anydesk 설치
+
+   ```
+   apt install anydesk
+   ```
+
+
+
+[1]: https://github.com/allejo/jekyll-toc
