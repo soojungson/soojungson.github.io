@@ -1,10 +1,11 @@
 ---
 title: PX4 : Open Source Autopilot for Drones
-author: crystall son
+author: soojung son
 date: 2023-07-07
 category: Jekyll
 layout: post
 ---
+
 PX4 Autopilot: Open Source Autopilot for Drones
 https://px4.io/
 
