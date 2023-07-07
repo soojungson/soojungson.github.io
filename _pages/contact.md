@@ -1,9 +1,15 @@
 ---
 title: Contact
-author: Tao He
-date: 2022-02-05
+author: soojung son
+date: 2023-07-07
 category: Jekyll
 layout: post
 ---
 
-This is an contact page.
+SooJung Son
+
+Master Course of Mobility Convergence Security Dep.
+Mobility & Robotic systems Lab (MRL)
+Soonchunhyang University
+
+E-mail : sjson@sch.ac.kr
