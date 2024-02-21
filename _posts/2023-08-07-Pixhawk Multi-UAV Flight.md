@@ -14,16 +14,14 @@ https://px4.io/
 
 <관련 문서>
 
-* 비행 모드 - 오프보드 https://docs.px4.io/main/ko/flight_modes/offboard.html
-
-* Drone Apps & APIs - 리눅스 오프보드 제어 https://docs.px4.io/main/ko/ros/offboard_control.html
-  
-* 하드웨어 - 보조 컴퓨터 설정 : https://docs.px4.io/main/ko/companion_computer/pixhawk_companion.html
+ * 비행모드 - 오프보드 https://docs.px4.io/main/ko/flight_modes/offboard.html
+ * Drone Apps & APIs - 리눅스 오프보드 제어 https://docs.px4.io/main/ko/ros/offboard_control.html
+ * 하드웨어 - 보조 컴퓨터 설정 : https://docs.px4.io/main/ko/companion_computer/pixhawk_companion.html
 
 
 
 
-## 다중 UAV Onboard 비행 실험 준비 조건
+## 다중 UAV 비행 실험 준비
 
 ### 1. 텔레메트리 ID 설정
 
@@ -122,7 +120,7 @@ value=""에 숫자 입력
 
 https://docs.px4.io/main/ko/flight_modes/offboard.html
 
-오프보드 모드는 아래의 매개 변수의 영향을받습니다.
+오프보드 모드는 아래의 매개 변수의 영향을 받습니다.
 
 매개변수	설명
 
