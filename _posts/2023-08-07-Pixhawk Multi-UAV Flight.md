@@ -1,7 +1,7 @@
 ---
-title: Multi UAV Offboard Flight
+title: Pixhawk Multi UAV Flight
 author: soojung son
-date: 2023-08-07
+date: 2024-02-07
 category: px4
 layout: post
 ---
