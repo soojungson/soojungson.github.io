@@ -12,8 +12,6 @@ https://px4.io/
 
 ## 오프보드 모드란?
 
-<관련 문서>
-
  * 비행모드 - 오프보드 https://docs.px4.io/main/ko/flight_modes/offboard.html
  * Drone Apps & APIs - 리눅스 오프보드 제어 https://docs.px4.io/main/ko/ros/offboard_control.html
  * 하드웨어 - 보조 컴퓨터 설정 : https://docs.px4.io/main/ko/companion_computer/pixhawk_companion.html
